@@ -77,15 +77,17 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFiltering: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousColorSigma: 1
-    m_PVRFilteringAtrousNormalSigma: 1
-    m_PVRFilteringAtrousPositionSigma: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
   m_LightingDataAsset: {fileID: 0}
   m_ShadowMaskMode: 2
 --- !u!196 &4
@@ -241,6 +243,12 @@ Prefab:
       propertyPath: purchaserObject
       value: 
       objectReference: {fileID: 1936063539}
+    - target: {fileID: 114629847250779210, guid: 744685e4c7e2f4564a6370aa121fc507,
+        type: 2}
+      propertyPath: products.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f3df4117f88142db9b87822ce7fb48b,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 744685e4c7e2f4564a6370aa121fc507, type: 2}
   m_IsPrefabParent: 0
@@ -257,7 +265,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 501113031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aea1890c3c9d44be8a589277111186d, type: 3}
+  m_Script: {fileID: -1236063948, guid: dd7fd34f1be6b4b349f6dca2faf64187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &522153200
