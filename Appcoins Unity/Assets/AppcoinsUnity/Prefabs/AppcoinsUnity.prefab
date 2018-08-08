@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4441580764524162}
-  - component: {fileID: 114629847250779210}
+  - component: {fileID: 114548121956042006}
   m_Layer: 0
   m_Name: AppcoinsUnity
   m_TagString: Untagged
@@ -40,7 +40,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114629847250779210
+--- !u!114 &114548121956042006
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -48,15 +48,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1747733199032774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 779045978, guid: dd7fd34f1be6b4b349f6dca2faf64187, type: 3}
+  m_Script: {fileID: 779045978, guid: 7f22438695e9549d2b98b50ff1141824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   receivingAddress: 0xa43646ed0ece7595267ed7a2ff6f499f9f10f3c7
   enableIAB: 1
   enablePOA: 1
   enableDebug: 1
-  products:
-  - {fileID: 11400000, guid: 62934e676fadc4d6d9df9a6b20ae856a, type: 2}
-  - {fileID: 11400000, guid: 8ffe8a5c4e82340288bf026ebb4a3a7c, type: 2}
-  - {fileID: 11400000, guid: 2f3df4117f88142db9b87822ce7fb48b, type: 2}
+  products: []
   purchaserObject: {fileID: 0}
