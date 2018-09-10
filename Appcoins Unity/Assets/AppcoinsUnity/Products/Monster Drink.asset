@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1068742706, guid: dd7fd34f1be6b4b349f6dca2faf64187, type: 3}
+  m_Script: {fileID: 1068742706, guid: a947557e148184b60a8d3786c180f8bc, type: 3}
   m_Name: Monster Drink
   m_EditorClassIdentifier: 
   Name: Monster Drink
