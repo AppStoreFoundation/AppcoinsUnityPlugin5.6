@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue "bool", "APPCOINS_ENABLE_POA", "false"
+            resValue "bool", "APPCOINS_ENABLE_DEBUG", "false"
+            resValue "string", "APPCOINS_PREFAB", "AppcoinsUnity"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    provided files('./libs/UnityPlayer.jar')
+    api 'com.asfoundation:appcoins:0.3.8a'
+}
+
+task copyAarToUnity {
+    copy {
+        from 'build/outputs/aar/appcoinsunity-release.aar'
+        into "../../Appcoins Unity/Assets/Plugins/Android"
+    }
+}
