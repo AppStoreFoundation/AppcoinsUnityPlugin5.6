@@ -8,4 +8,9 @@ public class PackageInfo : MonoBehaviour {
     {
         return "AppCoins_Unity_Package_5_6";
     }
+
+    public static bool ShouldCopyToMainRepo()
+    {
+    	return false;
+    }
 }
