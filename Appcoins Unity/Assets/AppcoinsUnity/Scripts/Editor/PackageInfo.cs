@@ -11,6 +11,6 @@ public class PackageInfo : MonoBehaviour {
 
     public static bool ShouldCopyToMainRepo()
     {
-    	return false;
+    	return true;
     }
 }
