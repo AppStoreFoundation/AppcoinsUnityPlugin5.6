@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4441580764524162}
   - component: {fileID: 114171622771194354}
-  - component: {fileID: 114289609208321990}
   m_Layer: 0
   m_Name: ASFAppcoinsUnity
   m_TagString: Untagged
@@ -49,26 +48,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1747733199032774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 779045978, guid: a947557e148184b60a8d3786c180f8bc, type: 3}
+  m_Script: {fileID: -497697863, guid: a947557e148184b60a8d3786c180f8bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  receivingAddress: 0xa43646ed0ece7595267ed7a2ff6f499f9f10f3c7
+  purchaserObject: {fileID: 0}
+  address: 0xa43646ed0ece7595267ed7a2ff6f499f9f10f3c7
   enableIAB: 1
   enablePOA: 1
   enableDebug: 1
-  products:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  purchaserObject: {fileID: 0}
---- !u!114 &114289609208321990
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1747733199032774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2089757477, guid: a947557e148184b60a8d3786c180f8bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
